@@ -1,0 +1,68 @@
+.sky {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+    background: url(assets/sunshine.jpg);
+    background-size: cover;
+}
+.clouds_one {
+    background: url(assets/cloud01.png);
+    position: absolute;
+    z-index: 1;
+    opacity: 0.2;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 300%;
+    animation: cloud_one 75s linear infinite;
+    transform: translate3d(0, 0, 0);
+}
+.clouds_two {
+    background: url("assets/cloud02.png");
+    position: absolute;
+    opacity: 0.2;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 300%;
+    animation: cloud_two 100s linear infinite;
+    transform: translate3d(0, 0, 0);
+}
+.clouds_three {
+    background: url("assets/cloud03.png");
+    position: absolute;
+    opacity: 0.2;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 300%;
+    animation: cloud_three 150s linear infinite;
+    transform: translate3d(0, 0, 0);
+}
+@keyframes cloud_one {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -200%;
+    }
+}
+@keyframes cloud_two {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -200%;
+    }
+}
+@keyframes cloud_three {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -200%;
+    }
+}

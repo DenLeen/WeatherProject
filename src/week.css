@@ -1,0 +1,95 @@
+div.week {
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    background-color: #E4F4F4;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 20px 10px black;
+}
+div.wrapperWeek{
+    border-radius: 30px;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #E4F4F4;
+}
+p.weekDescription{
+    height: 30px;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+div.week_item {
+    width: 100%;
+    min-width: 140px;
+    margin: 0 5px 0 10px;
+    box-shadow: 0 0 5px 5px black;
+    border-radius: 30px;
+    background-color: #C3FFFF;
+}
+div.itemWeek {
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 7px;
+}
+div.wrapperWeek {
+    height: 100px;
+}
+div.dayOfWeek {
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+div.forecastDescription {
+    font-size: 20px;
+    text-shadow: 0 0 1px black;
+}
+div.forecastInfo {
+    font-size: 20px;
+    text-shadow: 0 0 1px black;
+}
+@media (max-width: 900px){
+    div.wrapperWeek{
+        border-radius: 30px;
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    div.week_item {
+        height: 50px;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+    }
+}
